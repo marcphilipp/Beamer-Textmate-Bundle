@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\centerline{\includegraphics[width=$1\textwidth]{$0}}
+</string>
+	<key>name</key>
+	<string>Include graphics</string>
+	<key>scope</key>
+	<string>text.tex</string>
+	<key>tabTrigger</key>
+	<string>img</string>
+	<key>uuid</key>
+	<string>63DE4A7A-DBFB-4C40-BE7F-C3684B2D2DFF</string>
+</dict>
+</plist>

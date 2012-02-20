@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>7505B684-BC24-4E5E-8243-FA1D9B6EF46C</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>7505B684-BC24-4E5E-8243-FA1D9B6EF46C</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>Frames</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>name</key>
+	<string>Beamer</string>
+	<key>uuid</key>
+	<string>5348A370-82DC-4613-80EA-71F7B0B2775A</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\begin{frame}[fragile]
+  \frametitle{$0}
+\end{frame}</string>
+	<key>name</key>
+	<string>Empty frame</string>
+	<key>scope</key>
+	<string>text.tex</string>
+	<key>tabTrigger</key>
+	<string>frame</string>
+	<key>uuid</key>
+	<string>E2AAD7D6-7EDC-4EFE-B3E6-BF00A5B95962</string>
+</dict>
+</plist>
