@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>  \begin{figure}
+  \centering
+  \begin{tikzpicture}[node distance=1cm, auto]  
+  \tikzset{
+      action/.style={rectangle,draw=black, top color=white, bottom color=yellow!50,very thick, inner sep=0.25em, minimum size=0.6em, text centered},
+      input/.style={ellipse,draw=black, top color=white, bottom color=yellow!50,very thick, inner sep=0.25em, minimum size=0.6em, text centered},
+      condition/.style={diamond,draw=black, top color=white, bottom color=yellow!50,very thick, inner sep=0.25em, minimum size=0.6em, text centered},
+      myarrow/.style={draw},
+  }
+  \node[input] (item1) {Item1};  
+  \node[condition, below=1em of item1] (item2) {Item2};
+
+  \path[myarrow] (item1) -- (item2);   
+  \path[line] (item1) -- node [near end] {} (item2);        
+
+  \end{tikzpicture} 
+  \end{figure}
+</string>
+	<key>name</key>
+	<string>Tikz figure skelet</string>
+	<key>scope</key>
+	<string>text.tex</string>
+	<key>tabTrigger</key>
+	<string>tikz</string>
+	<key>uuid</key>
+	<string>A83D2672-705C-4280-B619-A096AF22FA40</string>
+</dict>
+</plist>

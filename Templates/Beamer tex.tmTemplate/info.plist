@@ -7,7 +7,7 @@
    TM_YEAR=`date +%Y` \
    TM_DATE=`date +%Y-%m-%d` \
    perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
-      &lt; beamer.tex &gt; "$TM_NEW_FILE"
+      &lt; beamer_in.tex &gt; "$TM_NEW_FILE"
 fi</string>
 	<key>extension</key>
 	<string>tex</string>

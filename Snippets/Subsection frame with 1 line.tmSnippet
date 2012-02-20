@@ -3,19 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\scriptsize{
-\begin{lstlisting}[language=$1,basicstyle=\footnotesize,label=$2,caption=$3]
-  $0
-\end{lstlisting}
-}
+	<string>\subsection{$1}
+\begin{frame}
+  \begin{center}
+    \Huge{$0}
+  \end{center}
+\end{frame}
 </string>
 	<key>name</key>
-	<string>Code listing</string>
+	<string>Subsection frame with 1 line</string>
 	<key>scope</key>
 	<string>text.tex</string>
 	<key>tabTrigger</key>
-	<string>code</string>
+	<string>sframe1line</string>
 	<key>uuid</key>
-	<string>3F624800-9F76-42BE-AA3D-168E0A69ACBA</string>
+	<string>3DC5C096-E20B-4C41-96F9-D832BD241104</string>
 </dict>
 </plist>
